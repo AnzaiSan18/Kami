@@ -386,4 +386,4 @@ async function handleVideo(video, message, voiceChannel, playlist = false) {
 //     //console.log(entry)
 //     logs.send(logembed);
 // })
-bot.login(botconfig.token)
+bot.login(process.env.BOT_TOKEN)
